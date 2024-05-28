@@ -1,0 +1,28 @@
+.menu {/* Estilos para el menú de navegación */
+.menu {
+    background-color: #333; /* Color de fondo del menú */
+    padding: 10px; /* Espaciado interno del menú */
+    text-align: center; /* Alinear el texto al centro */
+}
+
+.menu ul {
+    list-style-type: none; /* Quitar viñetas de la lista */
+    padding: 0; /* Eliminar el espacio interno de la lista */
+}
+
+.menu ul li {
+    display: inline; /* Mostrar los elementos de la lista en línea */
+    margin-right: 20px; /* Espacio entre elementos de la lista */
+}
+
+.menu ul li a {
+    color: #fff; /* Color del texto del enlace */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    padding: 5px 10px; /* Espaciado interno del enlace */
+}
+
+.menu ul li a:hover {
+    background-color: #555; /* Cambiar color de fondo al pasar el mouse */
+    border-radius: 5px; /* Agregar esquinas redondeadas al enlace */
+}
+}
