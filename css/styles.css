@@ -4,6 +4,7 @@ header {
     align-items: center;
     padding: 20px;
         background-color: #183c24;
+        font-weight: 500;
 }
 nav ul {
     display: flex;
@@ -25,12 +26,12 @@ nav ul li a {
 
 h1 {
     margin: 0;
-    color: red;
+    color: #00302a; /
 }
 
 
 h2{
-    color: blue;
+    color: rgb(192, 22, 184);
     text-align: center;
     font-size: 25px;
 }
@@ -40,5 +41,89 @@ h2{
     background-color: #8dc89a;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffffea;
+    color: #333;
+}
 
+header {
+    background-color: #9ffbdc;
+    padding: 20px;
+}
 
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #381f1e;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #00a481;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #62f3ca;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ffcccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #00a481;
+    color: rgb(180, 20, 82);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005548;
+}
+
+footer {
+    background-color: #3de6bc;
+    padding: 20px;
+    text-align: center;
+}
+
+p{align-items: center;
+    color:#04050e}
+    
+p{font-weight: bolder;}
+
+h3{color: #00e498;
+   text-align: center;
+ text-decoration-color: #183c24;}
+   
